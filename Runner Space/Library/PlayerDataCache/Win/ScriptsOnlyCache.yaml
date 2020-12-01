@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - CameraScript
     - Fire
     - Hero
+    - Kill
+    - Meteor
     - Parallax
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -41,18 +43,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 11646}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13094}
+    - Class: 114
+      Script: {instanceID: 13314}
+    - Class: 114
+      Script: {instanceID: 13704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -104,6 +112,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 655b686cba7d93b5dd72c0e42242ed50
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Kill
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -158,6 +172,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meteor
   - hash:
       serializedVersion: 2
       Hash: 234d407605354852c48e57df17c9a1c6
@@ -358,7 +378,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 655b686cba7d93b5dd72c0e42242ed50
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Fire
