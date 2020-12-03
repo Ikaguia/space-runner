@@ -1,0 +1,14 @@
+	Cyber Run's Notepads:
+
+	Platforms:
+
+		1_ Platfrom MU: Mid-Up; Middle of the screen, higher pltaforms
+		2_ Platform MD: Mid-Down; Middle of the screen, lower platforms
+	
+	Asteroids:
+
+		1_ Asteroid: No Z axis rotation
+		2_ Asteroid +15G: +15 degrees Z axis rotation
+		3_ Asteroid -15G: -15 degrees Z axis rotation
+		4_ Asteroid +195G: +195 degrees Z axis rotation
+		5_ Asteroid -195G: -195 degrees Z axis rotation
