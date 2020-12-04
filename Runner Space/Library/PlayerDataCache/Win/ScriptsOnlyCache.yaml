@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - FadeOut
     - Fire
     - Hero
     - Kill
@@ -50,17 +51,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11484}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 13118}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 13706}
+      Script: {instanceID: 13728}
+    - Class: 114
+      Script: {instanceID: 451794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -74,6 +77,10 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -114,7 +121,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 655b686cba7d93b5dd72c0e42242ed50
+      Hash: 2622f1af6a0bd7e4171ea8931947714f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Kill
@@ -592,6 +599,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeOut
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

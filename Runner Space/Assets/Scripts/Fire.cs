@@ -12,7 +12,7 @@ public class Fire : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		float speed = Hero.speed;
+		float speed = Hero.speed * 0.99f;
 		Debug.Log(speed);
 		rb.velocity = new Vector3(speed, 0f, 0f);
 	}
