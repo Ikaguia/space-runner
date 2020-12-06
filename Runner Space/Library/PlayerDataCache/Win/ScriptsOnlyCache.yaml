@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Awaken
     - CameraScript
+    - Escape
     - FadeOut
     - Fire
     - Hero
@@ -22,6 +24,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -51,20 +55,28 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11670}
+      Script: {instanceID: 11586}
     - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 13118}
+      Script: {instanceID: 11680}
     - Class: 114
-      Script: {instanceID: 13338}
+      Script: {instanceID: 11730}
     - Class: 114
-      Script: {instanceID: 13728}
+      Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 451794}
+      Script: {instanceID: 13130}
+    - Class: 114
+      Script: {instanceID: 13198}
+    - Class: 114
+      Script: {instanceID: 13352}
+    - Class: 114
+      Script: {instanceID: 13742}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -77,6 +89,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -121,7 +135,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 2622f1af6a0bd7e4171ea8931947714f
+      Hash: 687b4a651e055d12642e504fdbcd9871
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Kill
@@ -161,6 +175,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeOut
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -385,6 +405,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: c0e1db5cce2fd2340eeca9ac2cbcd8b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Escape
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -395,6 +421,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f998234a2efdd447a32bf95f56a5d102
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Awaken
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -599,13 +631,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FadeOut
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Cristiano/Desktop/Runner-Space/Build/Runner Space.exe
+  playerPath: C:/Users/Lucas/Desktop/final project/space-runner/Runner Space/Runner
+    Space.exe
